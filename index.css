@@ -1,5 +1,4 @@
 body{
-    background-color: #f6f5f5;
     margin: 0px;
     padding: 0px;
 }
@@ -71,4 +70,17 @@ nav ul li a{
 	color: #403e3e;
 	font-size:30px;
 	line-height:30px;
+}
+
+.text-container p{
+	margin:45px 0px 25px;
+	line-height:0px;
+}
+
+.model{
+	height:530px;
+	position:absolute;
+	bottom:40px;
+	left:75%;
+	transform: translateX(-75%);
 }
