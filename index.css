@@ -12,6 +12,14 @@ a{
     text-decoration: none;
 }
 
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url("Tumulak/img/newbg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
