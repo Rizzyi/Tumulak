@@ -44,37 +44,9 @@
     color: cyan;
 }
 .home{
-    background: url('./images/gamebg.jpg') no-repeat center;
+    background: gray;
     display: flex;
     background-size: 100%;
     height: 980px;
     color: white;
-}
-.model{
-    margin-top: 200px;
-    margin-left: 200px;
-    height: 650px;
-}
-.home .max-width{
-    margin-top: 350px;
-    margin-left: 100px;
-    word-spacing: 5px;
-}
-.home .home-content{
-    font-family: Ubuntu;
-}
-.home .home-content .text-1{
-    font-size: 27px;
-}
-.home .home-content .text-2{
-    font-size: 75px;
-    margin-top: 30px;
-}
-.home .home-content .text-3{
-    font-size: 40px;
-    margin-top: 30px;
-}
-.home .home-content .text-3 span{
-    color: cyan;
-    font-weight: 600;
 }
