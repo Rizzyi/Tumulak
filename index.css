@@ -78,3 +78,21 @@
     color: cyan;
     font-weight: 600;
 }
+.icons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.icons a{
+    position: right;
+    color: cyan;
+    font-size: 50px;
+}
+.icons a:not(:last-child){
+    margin-right: 60px;
+}
+.icons a:hover{
+    transform: scale(1.5);
+}
