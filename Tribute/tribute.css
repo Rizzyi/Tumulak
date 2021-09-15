@@ -50,3 +50,13 @@
     height: 980px;
     color: white;
 }
+.image{
+    background: url(../images/shroud.jpg) no-repeat center;
+    height: 60vh;
+}
+.content h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -4%;
+    font-family: Arial Bold;
+}
