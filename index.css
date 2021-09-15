@@ -1,90 +1,44 @@
-body{
-    background-color: whitesmoke;
-    margin: 0px;
-    padding: 0px;
-}
-
-ul{
-    list-style: none;
-}
-
-a{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
 }
-
-section{
+.max-width{
+    max-width: 1900px;
+    padding: 0 80px;
+    margin: 10px;
+}
+.navbar{
+    position: auto;
     width: 100%;
-    height: 95vh;
-    background-image: gray;
-    background-position: center;
-    background-size: cover;
+    background: lightgray;
+    font-family: 'ubuntu';
+    padding: 15px 0; 
 }
-
-nav{
+.navbar .max-width{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 60px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 12px rgba(0,0,0,2);
-    padding: 0px 5%;
+    justify-content: space-between;
 }
-
-nav ul{
+.navbar .logo a{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-left: 25px;
+}
+.home{
     display: flex;
-}
-
-nav ul li a{
-    margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #505050;
-    font-weight: 700;
-}
-
-.logo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #000000;
-    font-size: 22px;
-}
-
-.active{
-    font-weight: bold;
-    color: #2d2a2a;
-}
-
-.model{
-	height:600px;
-	position:absolute;
-	bottom:150px;
-	left:75%;
-	transform: translateX(-75%);
-}
-
-.text-container p:nth-child(1){
-	font-family: calibri;
-	font-weight:bold;
-	color:#6d6d6d;
-	font-size:22px;
-    margin-top: 15%;
-}
-
-.text-container p:nth-child(2){
-	font-family:calibri;
-	font-weight:bold;
-	letter-spacing:1px;
-	color:#1a1a1a;
-	font-size:60px;
-	
-}
-
-.text-container p:nth-child(3){
-	font-family: calibre;
-	color: #403e3e;
-	font-size:30px;
-	line-height:30px;
-}
-
-.text-container p{
-    margin-left: 20%;
-    line-height: 0px;
+    background-image: url(img);
+    height: 100vh;
 }
