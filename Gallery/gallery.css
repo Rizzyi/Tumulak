@@ -22,9 +22,11 @@
     justify-content: space-between;
 }
 .navbar .logo a{
+    margin-top: -10px;
     color: white;
     font-size: 35px;
     font-weight: 600;
+    position: fixed;
 }
 .navbar .logo a span{
     color: cyan;
@@ -44,9 +46,76 @@
     color: cyan;
 }
 .home{
-    background: gray;
+    background: url(../images/gallerybg.jpg);
     display: flex;
     background-size: 100%;
     height: 980px;
     color: white;
 }
+.container .card{
+    display: block;
+    margin-top: 200px;
+}
+.container .card{
+    float: right;
+    position: relative;
+    width: 550px;
+    height: 420px;
+    border-radius: 10px;
+    background: cyan;
+    margin: 20px;
+    overflow: hidden;
+    transition: .5s;
+  }
+  .container:hover .card{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+  .container .card:hover{
+    filter: blur(0);
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  .container .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+     
+  }
+  .container .card .content{
+    position: absolute;
+    bottom: 10px;
+    page-break-after: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  .content p{
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .content a{
+    position: relative;
+    display: inline-block;
+    background: #000;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .container .card:nth-child(1) .circle,
+  .container .card:nth-child(1) .content a{
+    background: white;
+  }
+  .container .card:nth-child(2) .circle,
+  .container .card:nth-child(2) .content a{
+    background: white;
+  }
+  .container .card:nth-child(3) .circle,
+  .container .card:nth-child(3) .content a{
+    background: white;
+  }
