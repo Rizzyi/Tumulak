@@ -26,7 +26,6 @@
     color: white;
     font-size: 35px;
     font-weight: 600;
-    position: fixed;
 }
 .navbar .logo a span{
     color: cyan;
@@ -53,17 +52,14 @@
     color: white;
 }
 .container .card{
-    display: block;
-    margin-top: 200px;
-}
-.container .card{
-    float: right;
+    float: left;
     position: relative;
-    width: 550px;
-    height: 420px;
+    width: 350px;
+    height: 380px;
     border-radius: 10px;
     background: cyan;
-    margin: 20px;
+    margin-top: 200px;
+    margin-left: 200px;
     overflow: hidden;
     transition: .5s;
   }
