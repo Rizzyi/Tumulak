@@ -46,8 +46,9 @@
 .home{
     background: url('./images/gamebg.jpg') no-repeat center;
     display: flex;
-    background-size: 100%;
     height: 980px;
+    background-size: 100%;
+
     color: white;
 }
 .model{

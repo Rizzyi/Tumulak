@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vaccination.css">
-    <title>vaccination</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    <title>Vaccination Form</title>
 </head>
 <body>
     <nav class="navbar">
         <dive class="max-width">
-            <div class="logo"><a href="#">Vacci<span>nation</span></a></div>
+            <div class="logo"><a href="#">Vaccination <span>Form</span></a></div>
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../Tribute/tribute.html">Tribute</a></li>
@@ -20,6 +23,53 @@
                 <li><a href="#">About</a></li>
             </ul>
         </dive>
+        <div class="main">
+            <div class="register">
+                <h1>Register Here</h1>
+                <form id="register" method="post"></form>
+                <label>First Name :</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Yout First Name">
+                <br><br>
+                <label>Last Name :</label>
+                <br>
+                <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+                <br><br>
+                <label>Your Age :</label>
+                <br>
+                <input type="number" name="age" id="name" placeholder="How old are You?">
+                <br><br>
+                <label>Complete Address :</label>
+                <br>
+                <input type="text" name="address" id="name" placeholder="Enter Your Address">
+                <br><br>
+                <label>Occupation</label>
+                <br>
+                <input type="text" name="address" id="name" placeholder="What is your Occupation">
+                <br><br>
+                <label>Contact Number :</label>
+                <br>
+                <input type="text" name="contact" id="name" placeholder="Enter your Contact Number">
+                <br><br>
+                <label>Email Address :</label>
+                <br>
+                <input type="text" name="emial" id="name" placeholder="Enter your Email Address">
+                <br><br>
+                <label>Date of Birth</label>
+                <br>
+                <input type="text" name="birth" id="name" placeholder="Enter your Date of Birth">
+                <br><br>
+                <label>Gender</label>
+                <br>
+                <input type="text" name="gender" id="name" placeholder="Enter your Gender">
+                <br><br>
+                <label>Preferences</label>
+                <br>
+                <input type="text" name="preferences" id="name" placeholder="Enter Preferences">
+                <br><br>
+                <input type="submit" value="Submit" name="submit" id="submit">
+            </div>
+        </div>
     </nav>
     <section class="home" id="home"></section>
 </body>
