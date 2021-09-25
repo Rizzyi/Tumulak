@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1900px;
+    padding: 0 80px;
+    margin: 10px;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    font-family: 'Ubuntu';
+    padding: 15px 0;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: cyan;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: cyan;
+}
+.home{
+    background: gray;
+    display: flex;
+    height: 1500px;
+    background-size: 100%;
+    color: white;
+}
+.content .js{
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.content p{
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, bold;
+    color: white;
+    max-width: 600px;
+}
+.content h2{
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+}
+div .video{
+    margin-top: 50px;
+    max-width: 1200px;
+    align-items: center;
+    margin-left: 170px;
+}
